@@ -1,7 +1,7 @@
 import { PageLayout } from 'shared/layouts';
 
 export const ListPage = () => (
-  <PageLayout>
+  <PageLayout title="List">
     <div>
       <table>
         <thead>

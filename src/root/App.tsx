@@ -8,8 +8,6 @@ import { MainLayout } from 'shared/layouts';
 const App: FC = () => {
   const { route, sideBarOptions } = useSideBar();
 
-  console.log(route);
-
   return (
     <MainLayout sideBarOptions={sideBarOptions}>
       {route === 'LIST' ? <ListPage /> : <FormPage />}

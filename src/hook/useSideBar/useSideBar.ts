@@ -15,11 +15,11 @@ export const useSideBar: IUseSideBar = () => {
 
   const sideBarOptions: ISideBarContainerItems[] = [
     {
-      text: 'List',
+      text: 'Go To List',
       onClick: handleOnNavigate('LIST'),
     },
     {
-      text: 'Create Form',
+      text: 'Go To Create Form',
       onClick: handleOnNavigate('CREATE'),
     },
   ];
