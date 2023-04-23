@@ -1,0 +1,22 @@
+.Button {
+    padding: 4px 8px;
+}
+
+.Button[data-variant="outlined"] {
+    border: 1px solid gray;
+    background-color: transparent;
+}
+
+.Button[data-variant="outlined"]:hover {
+    box-shadow: inset;
+}
+
+.Button[data-variant="contained"] {
+    border: 1px solid gray;
+    background-color: transparent;
+}
+
+.Button[data-variant="standard"] {
+    border: 1px solid gray;
+    background-color: transparent;
+}

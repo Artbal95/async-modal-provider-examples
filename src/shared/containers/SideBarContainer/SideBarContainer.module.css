@@ -1,0 +1,16 @@
+.SideBarContainer {
+    flex: 1 0 200px;
+    max-width: 200px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 16px 8px;
+    font-size: 20px;
+}
+
+.SideBarContainer li {
+    cursor: pointer;
+}
